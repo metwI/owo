@@ -8,7 +8,7 @@ app = Flask('')
 
 def home():
 
-    return "am göt meme"
+    return "uptimerobot.com'dan veya herhangi bir site hostlama aracını kullandığınızda onun gerçekten hostlandığını anlamak için yazmanız gereken bir mesaj"
 
 def run():
 
