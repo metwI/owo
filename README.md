@@ -39,7 +39,8 @@ import os
 keep_alive()
 TOKEN = os.environ.get("DISCORD_BOT_SECRET") 
 # repl.it ve/veya başka bir site kullanıyorsanız, 
-# .env bölümünden yeni bir kutucak açıp ismini "DISCORD_BOT_SECRET" koyarak açıklama bölümüne de self ve/veya normal bir bot'un tokenini koyabilirsiniz.
+# .env bölümünden yeni bir kutucak açıp ismini "DISCORD_BOT_SECRET" koyarak açıklama bölümüne de 
+# self ve/veya normal bir bot'un tokenini koyabilirsiniz.
 
 client.run(token, bot=False) # eğer bir self bot ise böyle kalmalı eğer normal bir bot ise - 'bot=True' yapınız.
 ```
